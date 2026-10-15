@@ -1,6 +1,6 @@
 import numpy as np
 
-data = np.load("data/octmnist_64.npz")
+data = np.load("octmnist_64.npz")
 
 for split in ["train", "val", "test"]:
     images = data[f"{split}_images"]
